@@ -31,7 +31,7 @@ def square_equation():
 		X2 = (-b - (DELTA ** (1/2)))/(2*a)
 		print("\nThe answer","\nX1 = ", X1, "\nX2 = ", X2)
 
-#square_equation()
+square_equation()
 
 
 ### TASK 2 ###
@@ -64,7 +64,7 @@ def randnumb():
 	print("Sorted numbers:","\n", tab)
 
 
-#randnumb()
+randnumb()
 
 ### TASK 3 ###
 def twovect():
@@ -79,7 +79,7 @@ def twovect():
 
 	print("a = [1, 2, 12, 4]","\nb = [2, 4, 2, 8]\n\na * b =",sum)
 
-#twovect()
+twovect()
 
 ### TASK 4 ###
 def summatrix():
@@ -92,10 +92,9 @@ def summatrix():
 			SUM[i][j]=A[i][j]+B[i][j]
 	print("Matrix A: \n",A,"\nMatrix B: \n",B,"\n\nSUMMARY: \n",SUM)
 
-#summatrix()
+summatrix()
 
 ### TASK 5 ###
-
 def multimatrix():
 	A = np.random.randint(100, size = (8,8))
 	B = np.random.randint(100, size = (8,8))
@@ -108,7 +107,7 @@ def multimatrix():
 
 	print("Matrix A: \n",A,"\nMatrix B: \n",B,"\n\nSUMMARY: \n",SUM)
 
-#multimatrix()
+multimatrix()
 
 ### TASK 6 ###
 def detmatrix():

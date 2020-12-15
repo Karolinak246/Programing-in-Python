@@ -11,8 +11,8 @@ path = "/home/pi/Documents/Python"
 from xml.dom import minidom
 import xml.dom.minidom
 import os
-import pandas as pd
 import numpy as np
+import pandas as pd
 import csv 
 
 ### TASK 1 ###

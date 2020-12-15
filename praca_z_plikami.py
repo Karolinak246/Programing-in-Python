@@ -37,9 +37,6 @@ def jpg_to_png_converter():
 	images_location = '/home/pi/Documents/Python/Images'
 	for f in os.listdir(images_location):
 		if f.endswith("jpg"):
-		#	jpg = Image.open(images_location+"/"+f)
-		#	f = f.replace(".jpg",".png")
-		#	jpg.save(f)
 			jpg_image = Image.open(images_location+"/"+f)
 			jpg_image.convert('RGB').save(images_location+ '/'+f.split(".")[0]+".png","PNG")
 
