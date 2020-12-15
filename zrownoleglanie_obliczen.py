@@ -12,10 +12,17 @@ path = '/home/pi/Documents/Python'
 import random
 import threading
 import time
+import matplotlib.pyplot as plt
 
 ### TASK 1 ###
-
-# todo
+# todo: (it's only started)
+def Histplot():
+    alpha = input("Alpha: ")
+    rwidth = input ("rwidth: ")
+    a, bins, c = plt.hist(x=d, bins='auto', alpha, rwidth)
+    plt.xlabel('x')
+    plt.ylabel('y')
+    plt.title('title')
 
 ### TASK 2 ###
 class Pher(threading.Thread):
